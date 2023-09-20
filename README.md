@@ -82,11 +82,11 @@ With the goal of generating optimized sequences of events to address cube-stacki
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://www.figma.com/proto/0GpjNvYnQ2UOFGzLp2EGzn/Virtual-NFT-Art-Exhibition-Website?type=design&node-id=24-510&t=iFTDOoxP4ii7dCeN-1&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=34%3A48&mode=design)
+![Product Name Screen Shot][product-screenshot]
 
 ## Project Overview
 
-At Shellhacks 2023, we're tackling the challenges posed by Google and Microsoft by creating a website that doubles as an educational platform for NFTs. Our platform also offers a virtual art exhibition where users can explore NFT art, dive into the world of featured crypto artists, and gain insights into the showcased artworks. Augmented Reality is incorporated for users with a mobile device, allowing them to visualize NFT art in their own space.
+As a UCF undergraduate researcher, I am utilizing the OpenAI, also known as ChatGPT-4 API, in conjunction with Python scripts to assess and compare its capabilities in common sense reasoning with ChatGPT-3.5. My undergraduate research project focuses on assessing the capabilities of LLM (Large Language Model) and VLM (Very Large Language Model) in cube stacking for common-sense planning challenges. The primary objective of this project is to generate optimized sequences of events to address cube-stacking challenges using OpenAI, particularly in the context of the Cube Stacking problem, which is one of the most renowned planning domains in the realm of artificial intelligence. In this challenge, the goal is to construct one or more vertical stacks of blocks to transform the initial state into the goal state. Notably, only one block may be moved at a time, and it can be placed either on the table or on top of another block, with the condition that a block cannot be moved if another block is resting on it.
 
 
 <!-- GETTING STARTED -->
@@ -213,7 +213,7 @@ We would like to extend our gratitude to the following:
 [issues-url]: https://github.com/christina8711/llm_cubestacking/issues
 [license-shield]: https://img.shields.io/github/license/christina8711/llm_cubestacking.svg?style=for-the-badge
 [license-url]: https://github.com/christina8711/llm_cubestacking/blob/master/LICENSE.txt
-[product-screenshot]: images/WebSS.png
+[product-screenshot]: Images/screenshot.png
 [linkedin-shield]:https://img.shields.io/badge/Linkedin-blue?style=flat&logo=linkedin&ilabelColor=blue
 [1linkedin-url]: https://www.linkedin.com/in/christinanguyen8711/
 [2linkedin-url]: https://www.linkedin.com/in/peterh-nguyen/
