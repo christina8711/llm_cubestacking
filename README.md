@@ -39,7 +39,7 @@
 Undergraduate Research Project: To assess the capabilities of LLM and VLM in cube stacking for common-sense planning challenges.
 With the goal of generating optimized sequences of events to address cube-stacking challenges using openai
 
-    <br />
+  <br />
     <a href="https://github.com/christina8711/llm_cubestacking"><strong>Explore the docs »</strong></a>
     <br />
     <br />
