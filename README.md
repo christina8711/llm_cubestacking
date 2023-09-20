@@ -29,7 +29,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/christina8711/LLM_CubeStacking">
+  <a href="https://github.com/christina8711/llm_cubestacking">
     <img src="images/Thumbnail.png" alt="Logo" width="460" height="260">
   </a>
 
@@ -40,14 +40,14 @@ Undergraduate Research Project: To assess the capabilities of LLM and VLM in cub
 With the goal of generating optimized sequences of events to address cube-stacking challenges using openai
 
     <br />
-    <a href="https://github.com/christina8711/LLM_CubeStacking"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/christina8711/llm_cubestacking"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/christina8711/LLM_CubeStacking">View Demo</a>
+    <a href="https://github.com/christina8711/llm_cubestacking">View Demo</a>
     ·
-    <a href="https://github.com/christina8711/LLM_CubeStacking/issues">Report Bug</a>
+    <a href="https://github.com/christina8711/llm_cubestacking/issues">Report Bug</a>
     ·
-    <a href="https://github.com/christina8711/LLM_CubeStacking/issues">Request Feature</a>
+    <a href="https://github.com/christina8711/llm_cubestacking/issues">Request Feature</a>
   </p>
 </div>
 
@@ -248,16 +248,16 @@ We would like to extend our gratitude to the following:
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/christina8711/LLM_CubeStacking.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/christina8711/llm_cubestacking.svg?style=for-the-badge
 [contributors-url]: https://github.com/christina8711/LLM_CubeStacking/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/christina8711/LLM_CubeStacking.svg?style=for-the-badge
-[forks-url]: https://github.com/christina8711/LLM_CubeStacking/network/members
-[stars-shield]: https://img.shields.io/github/stars/christina8711/LLM_CubeStacking.svg?style=for-the-badge
-[stars-url]: https://github.com/christina8711/LLM_CubeStacking/stargazers
-[issues-shield]: https://img.shields.io/github/issues/christina8711/LLM_CubeStacking.svg?style=for-the-badge
-[issues-url]: https://github.com/christina8711/LLM_CubeStacking/issues
-[license-shield]: https://img.shields.io/github/license/christina8711/LLM_CubeStacking.svg?style=for-the-badge
-[license-url]: https://github.com/christina8711/LLM_CubeStacking/blob/master/LICENSE.txt
+[forks-shield]: https://img.shields.io/github/forks/christina8711/llm_cubestacking.svg?style=for-the-badge
+[forks-url]: https://github.com/christina8711/llm_cubestacking/network/members
+[stars-shield]: https://img.shields.io/github/stars/christina8711/llm_cubestacking.svg?style=for-the-badge
+[stars-url]: https://github.com/christina8711/llm_cubestacking/stargazers
+[issues-shield]: https://img.shields.io/github/issues/christina8711/llm_cubestacking.svg?style=for-the-badge
+[issues-url]: https://github.com/christina8711/llm_cubestacking/issues
+[license-shield]: https://img.shields.io/github/license/christina8711/llm_cubestacking.svg?style=for-the-badge
+[license-url]: https://github.com/christina8711/llm_cubestacking/blob/master/LICENSE.txt
 [product-screenshot]: images/WebSS.png
 [linkedin-shield]:https://img.shields.io/badge/Linkedin-blue?style=flat&logo=linkedin&ilabelColor=blue
 [1linkedin-url]: https://www.linkedin.com/in/christinanguyen8711/
