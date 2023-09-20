@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/christina8711/llm_cubestacking">
-    <img src="images/Thumbnail.png" alt="Logo" width="460" height="260">
+    <img src="Images/thumbnail.png" alt="Logo" width="560" height="360">
   </a>
 
 <h3 align="center">LLM Cube Stacking</h3>
@@ -39,7 +39,7 @@
 Undergraduate Research Project: To assess the capabilities of LLM and VLM in cube stacking for common-sense planning challenges.
 With the goal of generating optimized sequences of events to address cube-stacking challenges using openai
 
-    <br />
+  <br />
     <a href="https://github.com/christina8711/llm_cubestacking"><strong>Explore the docs »</strong></a>
     <br />
     <br />
@@ -60,9 +60,7 @@ With the goal of generating optimized sequences of events to address cube-stacki
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#inspiration">inspiration</a></li>
-         <li><a href="#prototype-demo">Prototype Demo</a></li>
-        <li><a href="#disclaimer">Disclaimer</a></li>
+        <li><a href="#project-overview">Project Overview</a></li>
       </ul>
     </li>
     <li>
@@ -90,49 +88,6 @@ With the goal of generating optimized sequences of events to address cube-stacki
 
 At Shellhacks 2023, we're tackling the challenges posed by Google and Microsoft by creating a website that doubles as an educational platform for NFTs. Our platform also offers a virtual art exhibition where users can explore NFT art, dive into the world of featured crypto artists, and gain insights into the showcased artworks. Augmented Reality is incorporated for users with a mobile device, allowing them to visualize NFT art in their own space.
 
-## Prototype Development
-
-To bring our project to life, we leveraged the capabilities of ['Art Placer'][art-placer], an art market platform renowned for its interactive virtual spaces. With ['Art Placer'][art-placer], we seamlessly constructed the immersive virtual environment that forms the backbone of our concept. This virtual space enables users to explore our NFT art exhibition with remarkable interactivity.
-
-Within our ['Art Placer'][art-placer] virtual space, users can embark on a virtual tour, navigating through the NFT art exhibition. They can click on individual artworks to access a wealth of information, including essential details such as the Title, Artist, Gallery Price (in Ethereum), Date of creation, Medium (such as digital), and a comprehensive Art Description. We've also integrated links related to the artist, directing users to their NFT page and portfolio page for deeper engagement. For those interested in acquiring the artwork, a convenient 'Buy' button redirects users to the Opensea page, where they can make the purchase.
-
-This dynamic virtual space, created in ['Art Placer'][art-placer], has been seamlessly embedded into our prototype website on Figma. Through this integration, we offer a glimpse into our project's true vision, demonstrating the convergence of art, education, and technology that lies at its core. Our prototype reflects the culmination of our efforts to provide users with a holistic NFT art experience that transcends traditional boundaries.
-
-[art-placer]: https://www.artplacer.com/tools-for-artists-and-galleries/?gclid=CjwKCAjwpJWoBhA8EiwAHZFzfss-aNH2F_R07Lar48N52Jc5eiIZMVAs3EIpFIiXBotwrv-vdHZUzhoCgw8QAvD_BwE
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Inspiration
-
-"Crypto Gallery" was born out of a shared passion for art, technology, and education. We took on this challenge with the belief that the world of NFTs represents not just a groundbreaking innovation but also an opportunity to transform the way we interact with art. In the spirit of innovation and collaboration, we were inspired by the challenges set forth by Google and Microsoft at ShellHacks 2023. These challenges fueled our determination to create a platform that not only educates but also celebrates the incredible world of NFT art. Our project symbolizes the intersection of creativity and technology, where NFT artists can shine, and art enthusiasts can explore. We are driven by the vision of making art more accessible, immersive, and educational for everyone. This project is a testament to our dedication and the remarkable potential that emerges when talented individuals come together to create something meaningful. We hope "Crypto Gallery" inspires you as much as it has inspired us. It's not just about the art; it's about the journey, the education, and the shared experiences that await us in this vibrant NFT world. Thank you for joining us on this adventure.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Prototype Demo
-**Try Out Our Prototype:**
-
-['Crypto Gallery Prototype'][Crypto_Gallery_P]
-
-[Crypto_Gallery_P]:https://www.figma.com/proto/0GpjNvYnQ2UOFGzLp2EGzn/Virtual-NFT-Art-Exhibition-Website?type=design&node-id=34-48&t=Pxd7q8JkwRSFcF6B-1&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=34%3A48
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Disclaimer
-
-**Important**: This project is designed to educate users about the concept of NFTs (Non-Fungible Tokens) and features a virtual reality (VR) space showcasing NFT art from various artists. It's important to note the following:
-
-1. **Ownership of NFT Art**: The NFT art featured in this project is the creative work of various artists, and we do not claim ownership of the art displayed. All featured artwork belongs to its respective creators.
-
-2. **Artist Credits**: we've made every effort to provide proper credit to the artists whose work is showcased in this project. You will find artist credits within the VR space or accompanying information.
-
-3. **Links to Art**: In an effort to support and promote the artists, we have included links to the respective artists' profiles on [OpenSea](https://opensea.io/), a popular NFT marketplace, where you may have the opportunity to purchase their art.
-
-4. **No Endorsement**: The inclusion of any artist's work or links to OpenSea does not imply endorsement or partnership with this project. The featured artists are not affiliated with this project unless otherwise stated.
-
-5. **Legal Considerations**: If you are an artist or copyright holder and have concerns about the use of your work in this project, please contact me immediately. we are committed to addressing any legitimate concerns and respecting intellectual property rights.
-
-6. **Educational Purpose**: This project primarily serves an educational purpose to help users learn about NFTs and appreciate the creativity of NFT artists. It is not intended for commercial use or profit.
-
-Please understand that while we've taken precautions to respect the rights of artists, errors or omissions may occur. If you notice any issues or have concerns, please reach out, and we will promptly address them. Your feedback is valuable in ensuring the responsible and ethical use of NFT art within this project.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -249,7 +204,7 @@ We would like to extend our gratitude to the following:
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/christina8711/llm_cubestacking.svg?style=for-the-badge
-[contributors-url]: https://github.com/christina8711/LLM_CubeStacking/graphs/contributors
+[contributors-url]: https://github.com/christina8711/llm_cubestacking/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/christina8711/llm_cubestacking.svg?style=for-the-badge
 [forks-url]: https://github.com/christina8711/llm_cubestacking/network/members
 [stars-shield]: https://img.shields.io/github/stars/christina8711/llm_cubestacking.svg?style=for-the-badge
