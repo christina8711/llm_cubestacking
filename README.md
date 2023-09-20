@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/christina8711/llm_cubestacking">
-    <img src="images/thumbnail.png" alt="Logo" width="460" height="260">
+    <img src="Images/thumbnail.png" alt="Logo" width="460" height="260">
   </a>
 
 <h3 align="center">LLM Cube Stacking</h3>
