@@ -204,7 +204,7 @@ We would like to extend our gratitude to the following:
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/christina8711/llm_cubestacking.svg?style=for-the-badge
-[contributors-url]: https://github.com/christina8711/LLM_CubeStacking/graphs/contributors
+[contributors-url]: https://github.com/christina8711/llm_cubestacking/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/christina8711/llm_cubestacking.svg?style=for-the-badge
 [forks-url]: https://github.com/christina8711/llm_cubestacking/network/members
 [stars-shield]: https://img.shields.io/github/stars/christina8711/llm_cubestacking.svg?style=for-the-badge
