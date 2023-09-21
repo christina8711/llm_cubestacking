@@ -33,7 +33,7 @@
     <img src="Images/thumbnail.png" alt="Logo" width="560" height="360">
   </a>
 
-<h3 align="center">LLM Cube Stacking</h3>
+<h3 align="center">LLM Cube Stacking Project</h3>
 
   <p align="center">
 Undergraduate Research Project: To assess the capabilities of LLM and VLM in cube stacking for common-sense planning challenges.
@@ -71,9 +71,7 @@ With the goal of generating optimized sequences of events to address cube-stacki
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -102,13 +100,13 @@ As a UCF undergraduate researcher, I am utilizing the OpenAI, also known as Chat
 
 1. **Clone the repo:**
    ```sh
-   git clone https://github.com/christina8711/crypto_gallery.git
+   git clone https://github.com/christina8711/llm_cubestacking.git
    ```
    - This step clones the repository from GitHub to your local machine.
 
 2. **Navigate to the project directory:**
    ```sh
-   cd crypto_gallery
+   cd llm_cubestacking
    ```
    - Change your working directory to the newly cloned repository.
 
@@ -128,13 +126,14 @@ As a UCF undergraduate researcher, I am utilizing the OpenAI, also known as Chat
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Create a publicly accessible virtual reality (VR) platform that seamlessly integrates with opensea.com
-- [ ] Create an interactive prototype that visually demonstrates our vision for the educational NFT art exhibition website
-- [ ] Establish a GitHub repository with react setup
-    - [ ] Code the frontend of the website
-    - [ ] Code the backend of the website
+- [ ] Create a controlled environment, simulating a real-world 'table' scenario, for ChatGPT-4 to operate within.
+- [ ] Scale up the cube stacking problem to further challenge ChatGPT-4's common sense reasoning capabilities.
+    - [ ] This includes increasing the number of blocks in the problem and introducing random changes to the controlled environment.
+- [ ] Provide feedback to ChatGPT-4 in case of an error.
+    - [ ]  If ChatGPT's response is incorrect, communicate that a mistake was made.
+    - [ ] Try again if needed.
 
-See the [open issues](https://github.com/christina8711/crypto_gallery/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/christina8711/llm_cubestacking/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,48 +155,14 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- CONTACT -->
 ## Contact
 
 Christina Nguyen - [![LinkedIn][linkedin-shield]][1linkedin-url] - ch487674@ucf.edu
 
-Peter Nguyen - [![LinkedIn][linkedin-shield]][2linkedin-url] - pe264311@ucf.edu
-
-Tran Pham - [![LinkedIn][linkedin-shield]][3linkedin-url] - Tran.pham2@ucf.edu
-
-Project Link: [https://github.com/christina8711/crypto_gallery](https://github.com/christina8711/crypto_gallery)
+Project Link: [https://github.com/christina8711/llm_cubstacking](https://github.com/christina8711/llm_cubestacking)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-We would like to extend our gratitude to the following:
-
-- **Florida International University (FIU) and INIT:** We appreciate FIU and INIT for hosting ShellHacks Hackathon, which provided us with an incredible opportunity this weekend.
-
-- **Our Dedicated Team:** A big shoutout to our hardworking team for putting in tireless efforts all weekend to achieve our goals.
-
-- **Figma and Art Placer:** We want to acknowledge the invaluable role that Figma and Art Placer played in the development of our prototype, enabling us to bring our vision to life.
-
-- **OpenSea:** Special thanks to OpenSea for offering an exceptional learning section. It allowed us to reference and gain a deeper understanding of NFTs, contributing significantly to our project's success.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 
@@ -216,5 +181,3 @@ We would like to extend our gratitude to the following:
 [product-screenshot]: Images/screenshot.png
 [linkedin-shield]:https://img.shields.io/badge/Linkedin-blue?style=flat&logo=linkedin&ilabelColor=blue
 [1linkedin-url]: https://www.linkedin.com/in/christinanguyen8711/
-[2linkedin-url]: https://www.linkedin.com/in/peterh-nguyen/
-[3linkedin-url]: https://www.linkedin.com/in/tranpham9/
