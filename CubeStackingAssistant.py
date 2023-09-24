@@ -1,6 +1,8 @@
 import openai  # Import the OpenAI library
 import json  # Import the JSON library for handling configuration
 
+from Environment import Environment
+
 
 class CubeStackingAssistant:
     # Import OpenAI API Key
@@ -20,7 +22,7 @@ class CubeStackingAssistant:
         # Use OPENAI's API to chat with the ChatGPT-4 assistant
         openai.api_key = self.api_key  # Set the API key
         response = openai.ChatCompletion.create(
-            model="gpt-4",  # Using the GPT-4 version
+            model="gpt-3.5-turbo",  # Using the GPT-4 version
             messages=conversation_log,
         )
 
@@ -64,7 +66,8 @@ class CubeStackingAssistant:
                 {'role': 'user', 'content': action_description})
 
         # Request assistance for STRIPS Planning
-        conversation_log.append({'role': 'user', 'content': 'Please provide the most optimized sequence of action operations to go from the initial state to the goal state. Also, please provide the updated lists (perform, preconditions, add, delete, constraints) for each action.'})
+        # conversation_log.append({'role': 'user', 'content': 'Please provide the most optimized sequence of action operations to go from the initial state to the goal state. Also, please provide the updated lists (perform, preconditions, add, delete, constraints) for each action.'})
+        conversation_log.append({'role': 'user', 'content': 'Please provide a sequence of actions to go from the initial state to the goal state using only the actions described above.'})
 
         # Start the conversation with the assistant
         self.chat_with_assistant(conversation_log)
@@ -91,11 +94,17 @@ if __name__ == "__main__":
         "ClosedWorldAssumption():means anything not stated is assumed to be false"
     ]
 
-    initial_state = ["OnTable(C)", "On(B,C)", "On(A,B)",
-                     "Clear(A)", "OnTable(D)", "On(E,D)", "ArmEmpty()"]  # Arbitrary Parameters
+    # initial_state = ["OnTable(C)", "On(B,C)", "On(A,B)",
+    #                  "Clear(A)", "OnTable(D)", "On(E,D)", "ArmEmpty()"]  # Arbitrary Parameters
+    #
+    # goal_state = ["OnTable(A)", "On(B,A)", "Clear(B)",
+    #               "OnTable(C)", "On(D,C)", "Clear(D)", "OnTable(E)", "Clear(E)", "ArmEmpty()"]  # Arbitrary Parameters
 
-    goal_state = ["OnTable(A)", "On(B,A)", "Clear(B)",
-                  "OnTable(C)", "On(D,C)", "Clear(D)", "OnTable(E)", "Clear(E)", "ArmEmpty()"]  # Arbitrary Parameters
+    initial_state = ["OnTable(3)", "On(2, 3)", "On(1, 2)",
+                     "Clear(1)", "OnTable(4)", "On(5, 4)", "ArmEmpty()"]  # Arbitrary Parameters
+
+    goal_state = ["OnTable(1)", "On(2, 1)", "Clear(2)",
+                  "OnTable(3)", "On(4, 3)", "Clear(4)", "OnTable(5)", "Clear(5)", "ArmEmpty()"]  # Arbitrary Parameters
 
     actions = [
         # Define actions here
@@ -117,7 +126,7 @@ if __name__ == "__main__":
             'name': 'Pickup(x)',
             'preconditions': ['OnTable(x)', 'Clear(x)', 'ArmEmpty()'],
             'add_effects': ['Holding(x)'],
-            'delete_effects': ['Ontable(x)', 'Clear(x)', 'ArmEmpty()'],
+            'delete_effects': ['OnTable(x)', 'Clear(x)', 'ArmEmpty()'],
             'constraints': ['x != Table']
         },
         {
@@ -136,3 +145,8 @@ if __name__ == "__main__":
     # Print the assistant's responses
     for response in plan:
         print(response)
+
+    response = plan[0]
+
+    environment = Environment(ontology, initial_state, goal_state)
+    environment.simulate(response)
